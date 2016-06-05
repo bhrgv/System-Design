@@ -75,4 +75,5 @@ int main()
 	char SERVER_IP[] = "192.168.43.69";
 	int port = 9511;
 	socket_server(SERVER_IP, port);
+	return 0;
 }
