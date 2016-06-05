@@ -67,7 +67,7 @@ void socket_server(char SERVER_IP[], int port)
 		fgets(send_buff, 1024, stdin);
 		send(socket, send_buff, 1024, 0);
 		recv(socket, rec_buff, 1024, 0);
-		printf("Message Received from Server: %s\n\n", rec_buff);
+		printf("\nMessage Received from Server: %s\n\n", rec_buff);
 	}
 }
 int main()
